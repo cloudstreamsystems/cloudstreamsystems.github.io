@@ -2,6 +2,14 @@
 title: "Cloudstream Systems"
 ---
 
+<div class="hero">
+  <div class="hero-content">
+    <h1>Cloudstream Systems</h1>
+    <p>Welcome to my portfolio website!</p>
+    <a href="#about" class="hero-btn">Learn More</a>
+  </div>
+</div>
+
 # Cloudstream Systems
 
 Welcome to my portfolio website!
