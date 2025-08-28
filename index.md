@@ -36,4 +36,3 @@ feature_row:
 
 Welcome to my portfolio website!
 
-{% include feature_row %}
