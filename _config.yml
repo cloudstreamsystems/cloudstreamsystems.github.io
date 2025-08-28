@@ -1,25 +1,19 @@
-title: "Cloudstream Systems"
-description: "A personal portfolio built with Jekyll and Minimal Mistakes."
-
-author:
-  name: "Ada Lovelace"
-  avatar: "/assets/images/avatar.png"   # Optional: path to your avatar image
-  bio: "Engineer. Dreamer. Building cloud solutions."  # Short bio for sidebar/profile
-  location: "London, UK"
-  email: "ada@example.com"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/yourusername"
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourusername"
-    - label: "Portfolio"
-      icon: "fas fa-globe"
-      url: "https://yourportfolio.com" 
-
-# Remove or comment out the 'theme:' line if using the github-pages gem
+title: Cloudstream Systems
+email: cephaskudalor05@gmail.com
+description: >-
+  A personal portfolio built with Jekyll and Minima.
 theme: minima
+minima:
+  skin: auto
+  head_custom: head-custom.html
+
+sass:
+  style: compressed
+
+include:
+  - include:
+  - assets
+  - assets/main.css
 
 plugins:
   - jekyll-feed
@@ -28,9 +22,6 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
 
-# Minimal Mistakes configuration (optional)
-minimal_mistakes_skin: "air" # you can change to "air", "dark", etc.
-
 navigation:
   - title: "Home"
     url: /
@@ -38,17 +29,3 @@ navigation:
     url: /about/
   - title: "Projects"
     url: /projects/
-
-feature_row:
-  - image_path: /assets/images/feature1.png
-    title: "Projects"
-    excerpt: "See my work."
-    url: /projects/
-  - image_path: /assets/images/feature2.png
-    title: "Blog"
-    excerpt: "Read my thoughts."
-    url: /blog/
-  - image_path: /assets/images/feature3.png
-    title: "Contact"
-    excerpt: "Get in touch."
-    url: /contact/   
