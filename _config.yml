@@ -19,7 +19,7 @@ author:
       url: "https://yourportfolio.com" 
 
 # Remove or comment out the 'theme:' line if using the github-pages gem
-theme: minimal-mistakes-jekyll
+theme: minima
 
 plugins:
   - jekyll-feed
