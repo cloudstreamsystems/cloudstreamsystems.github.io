@@ -29,7 +29,7 @@ plugins:
   - jekyll-include-cache
 
 # Minimal Mistakes configuration (optional)
-minimal_mistakes_skin: "default" # you can change to "air", "dark", etc.
+minimal_mistakes_skin: "air" # you can change to "air", "dark", etc.
 
 navigation:
   - title: "Home"
