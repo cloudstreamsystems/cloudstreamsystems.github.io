@@ -4,7 +4,10 @@ layout: default
 
 <div class="hero">
   <div class="hero-video">
-    <img src="/attached_assets/generated_images/Modern_developer_designer_workspace_10de8bc8.png" alt="Developer workspace" class="hero-background">
+    <video autoplay muted loop class="hero-background">
+      <source src="/attached_assets/generated_images/Hero Vid.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <div class="hero-overlay"></div>
   </div>
   <div class="hero-content">
