@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
     {% include head-custom.html %}
 </head>
-<body>
+<body class="{% if page.url == '/' %}home{% endif %}">
     <header class="site-header" role="banner">
         <div class="wrapper">
             <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
