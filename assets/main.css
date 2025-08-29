@@ -164,8 +164,10 @@ body {
 .page-content .page-heading,
 .page-content h1.page-heading,
 .post-header .post-title,
-.page-header .page-title {
-  display: none;
+.page-header .page-title,
+.post-title,
+h1.post-title {
+  display: none !important;
 }
 
 /* Remove any wrapper margins that could cause gaps */
@@ -197,10 +199,21 @@ body {
 
 /* Header background for non-index pages */
 body:not(.home) .site-header {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%) !important;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%) !important;
   backdrop-filter: blur(10px);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-  position: relative;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+  position: fixed !important;
+  top: 0 !important;
+}
+
+/* Ensure non-home pages have proper body padding */
+body:not(.home) {
+  padding-top: 80px;
+}
+
+/* Override any conflicting styles for non-home headers */
+body:not(.home) .site-header.scrolled {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%) !important;
 }
 
 /* Header with background when scrolled */
