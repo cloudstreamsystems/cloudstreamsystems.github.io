@@ -625,11 +625,13 @@ body:not(.home) .site-header.scrolled {
   }
 }
 
-/* Projects Page Styles */
+/* Projects Page Styles - Enhanced for GitHub Pages */
 .projects-page {
   max-width: 1400px;
   margin: 0 auto;
   padding: 60px 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .projects-header {
@@ -640,11 +642,15 @@ body:not(.home) .site-header.scrolled {
 .projects-header h1 {
   font-size: 3.5rem;
   font-weight: 700;
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -moz-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -o-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 20px;
+  color: #667eea;
 }
 
 .projects-header p {
@@ -655,23 +661,41 @@ body:not(.home) .site-header.scrolled {
 }
 
 .projects-grid {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  -ms-grid-columns: 1fr 40px 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 40px;
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .project-card {
-  background: #ffffff;
+  background: #ffffff !important;
   border-radius: 20px;
   overflow: hidden;
+  -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border: 1px solid #e2e8f0;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .project-card:hover {
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
   transform: translateY(-10px);
+  -webkit-box-shadow: 0 20px 60px rgba(102, 126, 234, 0.15);
+  -moz-box-shadow: 0 20px 60px rgba(102, 126, 234, 0.15);
   box-shadow: 0 20px 60px rgba(102, 126, 234, 0.15);
 }
 
@@ -703,11 +727,26 @@ body:not(.home) .site-header.scrolled {
   left: 0;
   right: 0;
   bottom: 0;
+  background: -webkit-linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+  background: -moz-linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+  background: -o-linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
   background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
@@ -748,12 +787,17 @@ body:not(.home) .site-header.scrolled {
 }
 
 .tech-tag {
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -moz-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -o-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: white !important;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
+  display: inline-block;
+  margin: 2px;
 }
 
 .project-features {
@@ -814,9 +858,14 @@ body:not(.home) .site-header.scrolled {
 .projects-footer {
   text-align: center;
   padding: 60px 20px;
+  background: -webkit-linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  background: -moz-linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  background: -o-linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
   background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
   border-radius: 20px;
   margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .cta-section h2 {
@@ -837,14 +886,22 @@ body:not(.home) .site-header.scrolled {
 
 .cta-button {
   display: inline-block;
+  background: -webkit-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -moz-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: -o-linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: white !important;
   padding: 15px 40px;
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+  -moz-box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
   box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
 }
 
