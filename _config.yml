@@ -1,12 +1,15 @@
 title: Cloudstream Systems
 email: cephaskudalor05@gmail.com
 description: >-
-  A personal portfolio built with Jekyll and Minima.
-theme: minima
-minima:
-  skin: auto
-  head_custom: head-custom.html
-  footer_custom: footer-custom.html
+  a portfolio built with jekyll and minima
+
+# Replit Development Configuration
+host: 0.0.0.0
+port: 5000
+url: ""
+baseurl: ""
+livereload: true
+incremental: true
 
 # Social Media Links
 github_username: cloudstreamsystems
@@ -25,16 +28,8 @@ sass:
   style: compressed
 
 include:
-  - include:
   - assets
   - assets/main.css
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-include-cache
 
 navigation:
   - title: "Home"

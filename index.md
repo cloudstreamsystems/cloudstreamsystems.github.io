@@ -1,8 +1,22 @@
+---
+layout: default
+---
+
 <div class="hero">
+  <div class="hero-video">
+    <img src="/attached_assets/generated_images/Modern_developer_designer_workspace_10de8bc8.png" alt="Developer workspace" class="hero-background">
+    <div class="hero-overlay"></div>
+  </div>
   <div class="hero-content">
-    <h1>Cloudstream Systems</h1>
-    <p>Welcome to my portfolio website!</p>
-    <a href="#about-us" class="hero-btn">Learn More</a>
+    <div class="hero-text">
+      <h1>Cloudstream Systems</h1>
+      <p class="hero-subtitle">Full-Stack Developer & Creative Problem Solver</p>
+      <p class="hero-description">Crafting innovative web solutions and digital experiences that bring ideas to life</p>
+      <div class="hero-buttons">
+        <a href="#about" class="hero-btn primary">View My Work</a>
+        <a href="#contact" class="hero-btn secondary">Get In Touch</a>
+      </div>
+    </div>
   </div>
 </div>
 
