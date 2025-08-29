@@ -32,9 +32,9 @@ include:
   - assets/main.css
 
 navigation:
-  - title: "Home"
-    url: /
-  - title: "About"
+  - title: "About Us"
     url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "Contact Us"
+    url: /contact/
