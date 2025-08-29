@@ -6,6 +6,20 @@ theme: minima
 minima:
   skin: auto
   head_custom: head-custom.html
+  footer_custom: footer-custom.html
+
+# Social Media Links
+github_username: cloudstreamsystems
+twitter_username: cloudstreamsys
+linkedin_username: cloudstreamsystems
+instagram_username: cloudstreamsystems
+
+# Author Information
+author:
+  name: Cloudstream Systems
+  email: cephaskudalor05@gmail.com
+  location: Accra, Ghana
+  bio: "Full-stack developer passionate about creating innovative web solutions"
 
 sass:
   style: compressed
