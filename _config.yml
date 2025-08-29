@@ -3,13 +3,13 @@ email: cephaskudalor05@gmail.com
 description: >-
   a portfolio built with jekyll and minima
 
-# Replit Development Configuration
-host: 0.0.0.0
-port: 5000
+# Local Development Configuration
+host: 127.0.0.1
+port: 4000
 url: ""
 baseurl: ""
 livereload: true
-incremental: true
+incremental: false
 
 # Social Media Links
 github_username: cloudstreamsystems
